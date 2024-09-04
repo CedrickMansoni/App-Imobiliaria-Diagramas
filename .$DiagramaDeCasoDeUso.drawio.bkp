@@ -1,9 +1,12 @@
-<mxfile host="Electron" modified="2024-09-04T13:28:46.902Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="iZqr0IJX64CETEdsKtsx" version="24.6.4" type="device">
+<mxfile host="Electron" modified="2024-09-04T13:45:24.942Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="KlsP1DdaoDZliKJ1WwxC" version="24.6.4" type="device">
   <diagram name="Página-1" id="oinIF-td0bnsXT2gxYEK">
-    <mxGraphModel dx="1834" dy="1235" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pLplR0KY7bpChs8TC4EC-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1002" y="341" width="147" height="147" as="geometry" />
+        </mxCell>
         <mxCell id="uxgWOtZFFa0mFMytvNgW-1" value="Sistema de gestão de venda e arrendamento de imóveis" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=382;height=31;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-271" y="-207" width="1109" height="1094" as="geometry" />
         </mxCell>
@@ -312,8 +315,26 @@
             <mxPoint x="631" y="54" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pLplR0KY7bpChs8TC4EC-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="672" y="262" width="40" height="26" as="geometry" />
+        <mxCell id="pLplR0KY7bpChs8TC4EC-3" value="Corretor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-993" y="367" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pLplR0KY7bpChs8TC4EC-4" value="Propriedades" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-922" y="367" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLplR0KY7bpChs8TC4EC-5" value="Metodos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-932" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLplR0KY7bpChs8TC4EC-8" value="Nome da Classe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1105" y="303" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLplR0KY7bpChs8TC4EC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLplR0KY7bpChs8TC4EC-9" target="pLplR0KY7bpChs8TC4EC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLplR0KY7bpChs8TC4EC-9" value="Propriedades/Atributos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-954" y="303" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLplR0KY7bpChs8TC4EC-10" value="Accoes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-817" y="303" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

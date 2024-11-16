@@ -197,6 +197,7 @@ CREATE TABLE tabela21_venda_arrendamento (
     id SERIAL PRIMARY KEY,
     descricao TEXT NOT NULL
 );
+INSERT INTO tabela21_venda_arrendamento VALUES ('Arrendamento'),('Venda'),('Comprar'),('Vender');
 
 CREATE TABLE tabela22_favorito (
     id SERIAL PRIMARY KEY,

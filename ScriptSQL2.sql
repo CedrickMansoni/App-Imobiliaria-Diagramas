@@ -89,6 +89,7 @@ CREATE TABLE tabela11_cliente_solicitante (
     id SERIAL PRIMARY KEY,
     nome VARCHAR NOT NULL,
     telefone VARCHAR NOT NULL,
+	email VARCHAR NOT NULL,
     senha VARCHAR NOT NULL,
     estado VARCHAR NOT NULL
 );
@@ -146,10 +147,9 @@ CREATE TABLE tabela16_solicitacao_cliente (
     preco_minimo DECIMAL NOT NULL,
     preco_maximo DECIMAL NOT NULL,
     id_tipo_imovel INT NOT NULL,
-    id_localizacao INT NOT NULL,
+    localizacao VARCHAR NOT NULL,
     FOREIGN KEY (id_cliente_solicitante) REFERENCES tabela11_cliente_solicitante (id),
-    FOREIGN KEY (id_tipo_imovel) REFERENCES tabela07_tipo_imovel (id),
-    FOREIGN KEY (id_localizacao) REFERENCES tabela06_localizacao (id)
+    FOREIGN KEY (id_tipo_imovel) REFERENCES tabela07_tipo_imovel (id)
 );
 
 CREATE TABLE tabela17_notificar_cliente (
@@ -197,11 +197,10 @@ CREATE TABLE tabela21_venda_arrendamento (
     id SERIAL PRIMARY KEY,
     descricao TEXT NOT NULL
 );
-INSERT INTO tabela21_venda_arrendamento VALUES ('Arrendamento'),('Venda'),('Comprar'),('Vender');
+INSERT INTO tabela21_venda_arrendamento (descricao) VALUES ('Arrendamento'),('Venda'),('Comprar'),('Vender');
 
 CREATE TABLE tabela22_favorito (
     id SERIAL PRIMARY KEY,
-    data_favorito TIMESTAMP NOT NULL,
     codigo_publicacao VARCHAR NOT NULL,
     id_cliente_solicitante INT NOT NULL,
 	FOREIGN KEY (id_cliente_solicitante) REFERENCES tabela11_cliente_solicitante (id),
